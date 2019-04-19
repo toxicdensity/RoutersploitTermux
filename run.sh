@@ -7,6 +7,7 @@ apt install python python-dev git autoconf automake -y
 sleep 1  
 apt install libcrypt-dev libffi-dev openssl-dev perl clang -y
 sleep 2
+pkg install autoconf automake bison bzip2 clang cmake \coreutils diffutils flex gawk git grep gzip libtool make patch perl  \sed silversearcher-ag tar wget pkg-config -y
 git clone https://github.com/threat9/routersploit
 sleep 1
 cd routersploit 
