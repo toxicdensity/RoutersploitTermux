@@ -15,9 +15,9 @@ pip install --upgrade pip
 sleep 1
 pip install requests
 sleep 1
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 sleep 2
-pip install -r requirements-dev.txt
+python3 -m pip install -r requirements-dev.txt
 sleep 2
 cd $HOME
 sleep 1
