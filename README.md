@@ -2,7 +2,23 @@ I make the script to install routersploit on termux.
 I get the resolve of many problem installing termux in 
 https://github.com/threat9/routersploit/issues/531
 
-I just simplified and fix the command so it will take less storage 
+I just simplified and fix the command so it will take less storage
+
+# About Issue #3
+
+Well this issue I still dont know how to fix this because the issue is not too specific but it tells abut bash error.
+So if you read the issue and have a same problem with it use this command that hope its work.
+( Follow this command if you have a problem running run.sh in my script )
+
+```
+apt update && apt upgrade
+cd $HOME
+curl -LO https://raw.githubusercontent.com/41Team/RoutersploitTermux/master/run.sh
+chmod +x run.sh
+./run.sh or sh run.sh or bash run.sh
+```
+
+And if this method dont work I will make the installer with python3. So thanks for the attention!
 
 # Installation
 
