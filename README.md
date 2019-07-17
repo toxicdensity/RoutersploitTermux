@@ -18,7 +18,7 @@ chmod +x run.sh
 ./run.sh or sh run.sh or bash run.sh
 ```
 
-And if this method dont work I will make the installer with python3. So thanks for the attention!
+So if that command seems not work you can run this script with python3 with command...
 
 # Installation
 
