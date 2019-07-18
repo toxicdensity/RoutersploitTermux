@@ -28,8 +28,10 @@ def runscript():
 	os.system("cd routersploit")
 	os.system("pip install --upgrade pip")
 	os.system("pip install requests")
-	os.system("python3 -m pip install -r requirements.txt")
-	os.system("python3 -m pip install -r requirements-dev.txt")
+	os.system("pip install future")
+	os.system("pip install paramiko")
+        os.system("pip install pysnmp==4.4.6")
+        os.system("pip install pycryptodome")
 	os.system("cd $HOME")
 	sleep(1)
 
