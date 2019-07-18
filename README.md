@@ -4,21 +4,21 @@ https://github.com/threat9/routersploit/issues/531
 
 I just simplified and fix the command so it will take less storage
 
-# About Issue #3
+# Major update
 
-Well this issue I still dont know how to fix this because the issue is not too specific but it tells abut bash error.
-So if you read the issue and have a same problem with it use this command that hope its work.
-( Follow this command if you have a problem running run.sh in my script )
+Now this script has a python3 installer so if you have problem with bash installer this script can help
+Install routersploit with python3 with command...
 
 ```
-apt update && apt upgrade
-cd $HOME
-curl -LO https://raw.githubusercontent.com/41Team/RoutersploitTermux/master/run.sh
-chmod +x run.sh
-./run.sh or sh run.sh or bash run.sh
+apt update && apt upgrade -y
+apt install python -y
+# Use git for this script
+git clone https://github.com/41Team/RoutersploitTermux
+cd RoutersploitTermux
+python run.py
 ```
 
-So if that command seems not work you can run this script with python3 with command...
+Wait and enjoy :)
 
 # Installation
 
