@@ -38,7 +38,7 @@ def runscript():
 	os.system("rm -rf $HOME/RoutersploitTermux")
 	os.system("rm -rf $HOME/run.sh")
 	sleep(1)
-	clear
+	os.system("clear")
 
 	print("[*] All done!")
 	sleep(2)
