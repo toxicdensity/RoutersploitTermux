@@ -4,21 +4,10 @@ https://github.com/threat9/routersploit/issues/531
 
 I just simplified and fix the command so it will take less storage
 
-# Major update
+# Announcement
 
-Now this script has a python3 installer so if you have problem with bash installer this script can help
-Install routersploit with python3 with command...
-
-```
-apt update && apt upgrade -y
-apt install python -y
-# Use git for this script
-git clone https://github.com/41Team/RoutersploitTermux
-cd RoutersploitTermux
-python run.py
-```
-
-Wait and enjoy :)
+I want to remove this script because I was too busy fix this.
+Maybe I will move the script to another account. So just wait till confirmation
 
 # Installation
 
