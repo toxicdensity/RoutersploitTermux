@@ -13,7 +13,7 @@ To fix additional errors. I try to update this script soon, so please wait and b
 ```
 apt update && apt upgrade
 apt install git figlet
-git clone https://github.com/41Team/RoutersploitTermux
+curl -LO https://raw.githubusercontent.com/41Team/RoutersploitTermux/master/run.sh
 cd RoutersploitTermux
 bash run.sh
 ```
@@ -34,9 +34,8 @@ It will take time about 30min+
 
 ```
 1. cd $HOME
-2. rm -rf RoutersploitTermux ( optional )
-3. cd routersploit
-4. python rsf.py
+2. cd routersploit
+3. python rsf.py
 ```
 
 Thank you to use my script (If occured a error or fail just send a issue) :)
