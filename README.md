@@ -6,8 +6,7 @@ I just simplified and fix the command so it will take less storage
 
 # Announcement
 
-I want to remove this script because I was too busy fix this.
-Maybe I will move the script to another account. So just wait till confirmation
+To fix additional errors. I try to update this script soon, so please wait and be patient :)
 
 # Installation
 
